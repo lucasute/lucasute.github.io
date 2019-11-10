@@ -6,22 +6,83 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="Benvenuti alla pagina del matrimonio di Pamela e Luca">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/swiper/js/swiper.js"></script>
+    <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <title>Il Matrimonio di Pamela e Luca</title>
 </head>
 <body>
 <main>
-    <nav>
-
+    <nav class="navigation">
+        <a href="#location">La Location</a>
+        <a href="#travel">Il nostro Viaggio</a>
     </nav>
-    <section class="presentation">
-
+    <div class="separator"></div>
+    <section id="presentation" class="presentation">
+        <div class="main-title">
+            <span class="font-playfair subtitle">il matrimonio di</span>
+            <span class="font-parisienne">pamela e luca</span>
+        </div>
+        <div class="font-playfair date">12 Giugno 2020</div>
+        <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide swiper-slide1"><img class="slide-img" src="assets/slider/wedding1.jpg"
+                                                             alt="wedding1"></div>
+                <div class="swiper-slide swiper-slide2"><img class="slide-img" src="assets/slider/wedding2.jpg"
+                                                             alt="wedding2"></div>
+                <div class="swiper-slide swiper-slide3"><img class="slide-img" src="assets/slider/wedding3.jpg"
+                                                             alt="wedding3"></div>
+            </div>
+        </div>
+        <div id="mytimer" class="font-playfair timer"></div>
     </section>
-    <section class="location">
-
+    <div class="separator"></div>
+    <section id="location" class="location">
+        <h2>la location</h2>
+        <div class="maps">
+            <h3>la chiesa</h3>
+            <div class="font-open-sans location-description">
+                <h4>Chiesa Madre dello Spirito</h4>
+                <p>via dello spirito santo 00, Lecce</p>
+            </div>
+            <div class="map-container church">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.594623876754!2d9.173633915790264!3d45.498107379101285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c0df4351ddd7%3A0x13087ce1e362268!2sVia%20Giuseppe%20Guerzoni%2C%2015%2C%2020158%20Milano%20MI!5e0!3m2!1sit!2sit!4v1572909621313!5m2!1sit!2sit"
+                        width="450" height="450" frameborder="0" style="border:0;" allowfullscreen="true"></iframe>
+                <img src="assets/Chiesa.jpg" alt="chiesa" class="location-img">
+            </div>
+            <h3>il ristorante</h3>
+            <div class="font-open-sans location-description">
+                <h4>Masseria San Lorenzo</h4>
+                <a href="http://www.masseriasanlorenzo.it" target="_blank">Sito web masseria san lorenzo</a>
+                <p>via del mirto spinoso 01, Lecce</p>
+            </div>
+            <div class="map-container restaurant">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.594623876754!2d9.173633915790264!3d45.498107379101285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c0df4351ddd7%3A0x13087ce1e362268!2sVia%20Giuseppe%20Guerzoni%2C%2015%2C%2020158%20Milano%20MI!5e0!3m2!1sit!2sit!4v1572909621313!5m2!1sit!2sit"
+                        width="490" height="320" frameborder="0" style="border:0;" allowfullscreen="true"></iframe>
+                <img src="assets/masseria2.jpg" alt="masseria" class="location-img">
+            </div>
+        </div>
     </section>
-    <section class="viaggio">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.594623876754!2d9.173633915790264!3d45.498107379101285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c0df4351ddd7%3A0x13087ce1e362268!2sVia%20Giuseppe%20Guerzoni%2C%2015%2C%2020158%20Milano%20MI!5e0!3m2!1sit!2sit!4v1572909621313!5m2!1sit!2sit" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    <div class="separator"></div>
+    <section id="travel" class="travel">
+        <h2>il nostro viaggio</h2>
+        <p class="travel-text">Contribuisci a rendere il nostro viaggio di nozze un'esperienza da ricordare per il resto
+            della nostra
+            vita</p>
+        <div class="iban">
+            <span>IBAN: IT0100009018983010</span>
+            <span>Banca: Intesa San Paolo</span>
+        </div>
+        <div>
+            <img src="assets/travel.jpg" alt="il nostro viaggio" class="travel-img">
+        </div>
     </section>
 </main>
+<script src="scripts/main.js"></script>
 </body>
 </html>
