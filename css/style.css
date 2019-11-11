@@ -216,6 +216,11 @@ section {
     margin: 20px;
 }
 
+#map-restaurant {
+    height: 320px;  /* The height is 400 pixels */
+    width: 490px;  /* The width is the width of the web page */
+}
+
 /*media queries */
 @media (max-width: 1280px) {
     .slide-img {

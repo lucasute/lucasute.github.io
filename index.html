@@ -62,8 +62,9 @@
                 <p>via del mirto spinoso 01, Lecce</p>
             </div>
             <div class="map-container restaurant">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.594623876754!2d9.173633915790264!3d45.498107379101285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c0df4351ddd7%3A0x13087ce1e362268!2sVia%20Giuseppe%20Guerzoni%2C%2015%2C%2020158%20Milano%20MI!5e0!3m2!1sit!2sit!4v1572909621313!5m2!1sit!2sit"
-                        width="490" height="320" frameborder="0" style="border:0;" allowfullscreen="true"></iframe>
+                <!--                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.594623876754!2d9.173633915790264!3d45.498107379101285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c0df4351ddd7%3A0x13087ce1e362268!2sVia%20Giuseppe%20Guerzoni%2C%2015%2C%2020158%20Milano%20MI!5e0!3m2!1sit!2sit!4v1572909621313!5m2!1sit!2sit"-->
+                <!--                        width="490" height="320" frameborder="0" style="border:0;" allowfullscreen="true"></iframe>-->
+                <div id="map-restaurant"></div>
                 <img src="assets/masseria2.jpg" alt="masseria" class="location-img">
             </div>
         </div>
@@ -84,5 +85,8 @@
     </section>
 </main>
 <script src="scripts/main.js"></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCsmWt4V44zy6UKJQb5aProihFs0kgrjrk&callback=initMap">
+</script>
 </body>
 </html>
