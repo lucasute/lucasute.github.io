@@ -45,13 +45,3 @@ function countDown(second,endMinute,endHour,endDay,endMonth,endYear) {
 }
 countDown(0,0,15,12,6,2020); //impostiamo timer per ora e la data di scadenza, nel mio esempio per 5 maggio 2019 ore 6 minute 30 e secondi 3   //   </script>
 
-function initMap() {
-    // The location of Uluru
-    var uluru = {lat: -25.344, lng: 131.036};
-    // The map, centered at Uluru
-    var map = new google.maps.Map(
-        document.getElementById('map-restaurant'), {zoom: 4, center: uluru});
-    // The marker, positioned at Uluru
-    var marker = new google.maps.Marker({position: uluru, map: map});
-}
-
