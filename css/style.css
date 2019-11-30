@@ -100,6 +100,10 @@ main {
     background: url(../assets/lightpaperfibers_@2X.png);
 }
 
+.swiper-button{
+    color: black;
+}
+
 .date {
     display: flex;
     width: 100%;
@@ -169,6 +173,20 @@ section {
     flex-direction: column;
     align-content: center;
     align-items: center;
+}
+
+.dressCode {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.dressCode-text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    width: 90vw;
+    max-width: 1000px;
 }
 
 .slide-img {

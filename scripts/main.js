@@ -1,13 +1,21 @@
 var mySwiper = new Swiper('.swiper-container', {
     // Optional parameters
-    loop: true,
+    loop: false,
     spaceBetween: 0,
-    centeredSlides: false,
+    centeredSlides: true,
     slidesPerView: 1,
-    autoHeight: true,
+    autoHeight: false,
+    grabCursor: true,
+    watchSlidesProgress: true,
+    keyboardControl: true,
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev"
+    },
     effect: 'slide',  //Could be "slide", "fade", "cube", "coverflow" or "flip"
     autoplay: {
-        deelay: 500
+        deelay: 400,
+        stopOnLastSlide: true
     },
     coverflowEffect: {
         slideShadows: false,
