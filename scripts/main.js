@@ -1,6 +1,6 @@
 var mySwiper = new Swiper('.swiper-container', {
     // Optional parameters
-    loop: false,
+    loop: true,
     spaceBetween: 0,
     centeredSlides: true,
     slidesPerView: 1,
@@ -8,19 +8,25 @@ var mySwiper = new Swiper('.swiper-container', {
     grabCursor: true,
     watchSlidesProgress: true,
     keyboardControl: true,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev"
-    },
     effect: 'slide',  //Could be "slide", "fade", "cube", "coverflow" or "flip"
     autoplay: {
-        deelay: 400,
+        deelay: 100,
         stopOnLastSlide: true
     },
     coverflowEffect: {
         slideShadows: false,
     },
 });
+//
+// mySwiper.on('slideChange', function(){
+//     console.log(mySwiper.activeIndex);
+//     if(mySwiper.activeIndex == 5){
+//         console.log('dkakdl');
+//         setTimeout(function () {
+//
+//         }, 5000);
+//     }
+// });
 
 function countDown(second,endMinute,endHour,endDay,endMonth,endYear) {
     var now = new Date();
