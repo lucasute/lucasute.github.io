@@ -131,6 +131,7 @@ h3 {
     font-size: 28px;
     width: 80vw;
     max-width: 1000px;
+    text-align: center;
 }
 
 section {
@@ -212,6 +213,12 @@ section {
     font-size: 28px;
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.iban span{
+    margin-bottom:20px;
 }
 
 .travel-img {
