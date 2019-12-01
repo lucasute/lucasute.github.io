@@ -5,18 +5,20 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="description" content="Benvenuti alla pagina del matrimonio di Pamela e Luca">
+    <meta name="description" content="Benvenuti alla pagina web del matrimonio di Pamela e Luca">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/swiper/js/swiper.js"></script>
     <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
     <title>Il Matrimonio di Pamela e Luca</title>
+    <link href="/assets/favicon.ico" rel="icon" type="image/x-icon" />
 </head>
 <body>
 <main>
-    <nav class="navigation">
+    <nav id="top" class="navigation">
         <a href="#location">La Location</a>
+        <a href="#dressCode">Consigli</a>
         <a href="#travel">Il nostro Viaggio</a>
     </nav>
     <div class="separator"></div>
@@ -39,7 +41,7 @@
                                                              alt="wedding3"></div>
                 <div class="swiper-slide swiper-slide4"><img class="slide-img" src="assets/slider/wedding4.jpg"
                                                              alt="wedding4"></div>
-                <div class="swiper-slide swiper-slide-main" data-swiper-autoplay="9000"><img class="slide-img" src="assets/slider/weddingMain.jpg"
+                <div class="swiper-slide swiper-slide-main" data-swiper-autoplay="5000"><img class="slide-img" src="assets/slider/weddingMain.jpg"
                                                              alt="weddingMain"></div>
 <!--                <div class="swiper-slide swiper-slide3"><img class="slide-img" src="assets/slider/wedding5.jpg"-->
 <!--                                                             alt="wedding5"></div>-->
@@ -51,7 +53,10 @@
 <!--            <div class="swiper-button-next swiper-button"></div>-->
 <!--            <div class="swiper-button-prev swiper-button"></div>-->
         </div>
+        <span class="font-open-sans">Evviva ci Sposiamo!</span>
+        <span class="font-open-sans">Noi abbiamo iniziato a contare i giorni…</span>
         <div id="mytimer" class="font-playfair timer"></div>
+        <span class="font-open-sans timer-text">e abbiamo pensato di creare questo sito per condividere con voi qualche informazione utile in preparazione alla festa.</span>
     </section>
     <div class="separator"></div>
     <section id="location" class="location">
@@ -91,14 +96,15 @@
         <h2>il nostro viaggio</h2>
         <p class="travel-text">Gli sposi ringraziano tutti coloro che avranno il piacere di contribuire a rendere unico il loro viaggio di nozze.</p>
         <div class="iban">
-            <span>Intestazione: De Nicolo Pamela e Luca Sutera Sardo</span>
-            <span>Banca: Fineco</span>
-            <span>IBAN: IT97Z0301503200000005987843</span>
+            <span class="font-playfair">Intestazione: De Nicolo Pamela e Luca Sutera Sardo</span>
+            <span class="font-playfair">Banca: Fineco</span>
+            <span class="font-playfair">IBAN: IT97Z0301503200000005987843</span>
         </div>
         <div>
             <img src="assets/viaggio.png" alt="il nostro viaggio" class="travel-img">
         </div>
     </section>
+    <a href="#top" class="top">Torna su</a>
 </main>
 <script src="scripts/main.js"></script>
 </body>

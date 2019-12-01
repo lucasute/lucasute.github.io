@@ -8,10 +8,10 @@ var mySwiper = new Swiper('.swiper-container', {
     grabCursor: true,
     watchSlidesProgress: true,
     keyboardControl: true,
+    speed: 400,
     effect: 'slide',  //Could be "slide", "fade", "cube", "coverflow" or "flip"
     autoplay: {
-        deelay: 100,
-        stopOnLastSlide: true
+        deelay: 100
     },
     coverflowEffect: {
         slideShadows: false,
