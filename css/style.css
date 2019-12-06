@@ -135,6 +135,7 @@ main {
 
 .timer-text{
     max-width: 500px;
+    font-size: 30px;
 }
 
 h2 {
@@ -315,13 +316,16 @@ section {
         font-size: 40px;
         max-width: 350px;
     }
-
+    .timer-text{
+        font-size: 24px;
+        max-width: 340px;
+    }
     .date {
         font-size: 28px;
     }
 
     .timer {
-        font-size: 18px;
+        font-size: 24px;
     }
 }
 
