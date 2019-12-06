@@ -49,8 +49,8 @@ function countDown(second,endMinute,endHour,endDay,endMonth,endYear) {
             var text='</div><div>'
             var end='</div></div><div style="float:left;">,</div>'
             document.getElementById('mytimer').innerHTML = '<div> </div>'+
-                days+text+'giorni'+end+hours+text+'ore'+end+
-                minutes+'minuti'+text+end+seconds+text+'secondi' + '<div></div>';
+                days+text+'g'+end+hours+text+'h'+end+
+                minutes+'m'+text+end+seconds+text+'s' + '<div></div>';
         }
         now.setSeconds(now.getSeconds() + 1);
     }, 1000);
