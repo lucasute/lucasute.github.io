@@ -135,7 +135,7 @@ main {
 
 .timer-text{
     max-width: 500px;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 h2 {
@@ -216,7 +216,7 @@ section {
 
 .dressCode-text {
     font-family: "Open Sans", sans-serif;
-    font-size: 18px;
+    font-size: 20px;
     width: 90vw;
     max-width: 1000px;
     text-align: justify;
